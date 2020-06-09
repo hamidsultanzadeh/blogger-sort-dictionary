@@ -1,6 +1,7 @@
 English - Azerbaijan
 adjective - sifət
-apple - alma
+appropriate - uyğun
+bullying - zorbalıq
 cheap - ucuz
 dry - quru
 flat - mənzil
@@ -9,4 +10,5 @@ noisy - səsli
 noun - isim
 pronoun - əvəzlik
 shy - utancaq
+violence - şiddət
 wet - yaş (nəm)

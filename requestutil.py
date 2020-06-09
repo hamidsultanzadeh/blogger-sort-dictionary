@@ -13,6 +13,8 @@ def getPostById(blogger):
 
     response:dict = MyBlog.posts().list(blogId=blogger.blogId).execute()
 
+    print(response)
+
     print("GET request done")
     return response['items'][0]['content']
 
@@ -27,7 +29,10 @@ def savePostById(bg: Blogger):
      "url": "http://sultanzadehhenglish.blogspot.com/2020/06/dictionary.html",
      "selfLink": "https://www.googleapis.com/blogger/v3/blogs/3429621621024834681/posts/1276803922336852881",
      "title": "Dictionary",
-     "content": {}
+     "content": {},
+     "labels":[
+            "dictionary"
+    ]
     """.format("\""+bg.postId+"\"", "{" + """"id": \"{}\"""".format(bg.blogId) + "}",bg.content)
 
     myJson = "{"+myJson+"}"
